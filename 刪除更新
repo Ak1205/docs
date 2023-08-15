@@ -1,0 +1,91 @@
+#更新
+#刪除
+代码
+拉取请求
+1
+讨论
+行动
+安全
+见解
+GitHub Actions Importer 可帮助您规划和自动将 Azure DevOps、CircleCI、GitLab、Jenkins 和 Travis CI 管道迁移到 GitHub Actions。
+
+执照
+ 麻省理工学院许可证
+行为守则
+ 行为守则
+安全政策
+ 安全政策
+ 724 星
+ 567 叉子
+ 45 观看
+ 活动
+公共存储库
+github/gh-actions-importer
+ 分支机构
+ 标签
+最新提交
+@布雷多
+@ethanis
+布雷多 和 伊萨尼斯
+……
+4 days ago
+Git 统计
+文件
+自述文件.md
+GitHub 操作导入器
+.github/workflows/ci.yml
+
+GitHub Actions Importer可帮助规划、测试和自动从以下平台迁移到 GitHub Actions：
+
+Azure 开发运营
+Bamboo（目前处于测试阶段）
+循环CI
+GitLab
+詹金斯
+特拉维斯·西尔
+如何请求支持
+如果您需要帮助，可以在此处提交支持票证。
+
+入门
+GitHub Actions Importer 作为 Docker 容器进行分发，并且将此扩展扩展到官方GitHub CLI以与 Docker 容器进行交互。
+
+先决条件
+必须满足以下要求才能使用 GitHub Actions Importer：
+
+必须安装并运行Docker CLI 。
+必须安装官方GitHub CLI 。
+您必须拥有凭证才能通过 GitHub 容器注册表进行身份验证。
+安装
+接下来，可以通过以下命令安装 GitHub Actions Importer CLI 扩展：
+
+$ gh extension install github/gh-actions-importer
+配置
+GitHub Actions Importer 的新版本会定期发布。为了确保您是最新的，请运行以下命令：
+
+$ gh actions-importer update
+为了使 GitHub Actions Importer 能够与当前的 CI/CD 服务器和 GitHub 进行通信，必须为该命令提供各种可用的凭据。这些可以使用环境变量或.env.local文件进行配置。可以通过运行以下命令在交互式提示中配置这些环境变量：
+
+$ gh actions-importer configure
+? Enter value for 'GITHUB_ACCESS_TOKEN' (leave empty to skip): 
+...
+您可以在特定于平台的文档中找到有关使用环境变量的详细信息。
+
+文档
+有关如何使用 GitHub Actions Importer 的详细信息可以在文档中找到。
+
+录音
+您可以访问 GitHub Actions Importer 的录制演示，该演示从以下 CI/CD 平台执行到 Actions 的迁移：
+
+Azure 开发运营
+循环CI
+GitLab
+詹金斯
+特拉维斯·西尔
+自主学习
+GitHub Actions Importer 实验室存储库包含特定于平台的学习路径，教您如何使用 GitHub Actions Importer 以及如何迁移到 GitHub Actions。要了解更多信息，请参阅GitHub Actions Importer 实验室存储库。
+
+产品路线图
+要了解 GitHub Actions Importer 的新功能，请参阅GitHub 公共路线图。
+
+如何提供反馈或提出功能请求
+如果您想提供反馈或提出功能请求，请在此处创建新的讨论。
