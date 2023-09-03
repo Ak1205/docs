@@ -1,0 +1,75 @@
+谷歌云平台
+
+Google 雲平台服務條款
+
+Google 雲平台服務條款
+
+最後修改時間：2023 年 9月 4日更新刪除全部
+
+剛接觸 Google Cloud？您可以在此處快速了解 Google Cloud 在線簽約。
+
+如果您作為非附屬 Google Cloud Platform 轉銷商的客戶訪問 Google Cloud Platform 服務，則以下條款不適用於您，並且您與轉銷商之間的協議將約束您對 Google Cloud Platform 服務的使用。
+
+如果您簽署了本協議的離線版本以在同一 Google Cloud Platform 帳戶下使用 Google Cloud Platform 服務，則以下條款不適用於您，並且您對 Google Cloud Platform 服務的使用將受您的離線條款的約束。
+
+這些 Google Cloud Platform 服務條款（統稱為“協議”）由 Google 和同意這些條款的實體或個人（“客戶”）簽訂，並管理客戶對服務的訪問和使用。 “Google”具有https://cloud.google.com/terms/google-entity中給出的含義。
+
+本協議在客戶點擊接受後即生效（“生效日期”）。如果您代表客戶接受，則您聲明並保證 (i) 您擁有充分的法定權力來約束客戶遵守本協議；(ii) 您已閱讀並理解本協議；(iii) 您代表客戶同意本協議。
+
+1.服務的提供。
+
+1.1服務使用。在期限內，Google 將根據協議（包括 SLA）提供服務，客戶可以根據協議使用服務，並將服務集成到任何具有獨立於服務的實質性價值的客戶應用程序中。
+
+1.2管理控制台。客戶將有權訪問管理控制台，客戶可以通過該控制台管理其對服務的使用。
+
+1.3賬戶。客戶必須擁有帳戶才能使用服務，並對其提供的用於創建帳戶的信息、帳戶密碼的安全性以及對其帳戶的任何使用負責。Google 沒有義務向客戶提供多個帳戶。
+
+1.4 Modifications.
+
+(a) To the Services. Google may make commercially reasonable updates to the Services from time to time. Google will inform Customer if Google makes a material change to the Services that has a material impact on Customer's use of the Services provided that Customer has subscribed with Google to be informed about such change.
+
+(b) To the Agreement. Google may make changes to this Agreement (including the URL Terms) and pricing from time to time. Unless otherwise noted by Google, material changes to the Agreement will become effective 30 days after they are posted, except to the extent the changes apply to new functionality or the Cloud Data Processing Addendum, or are required by applicable law, in which case they will be effective immediately. Google will provide at least 90 days' advance notice for materially adverse changes to any SLAs by (i) sending an email to the Notification Email Address; (ii) posting a notice in the Admin Console; or (iii) posting a notice to the applicable SLA webpage. If Customer does not agree to the revised Agreement, Customer may stop using the Services. Customer may also terminate this Agreement for convenience under Section 8.4 (Termination for Convenience). Customer's continued use of the Services after such material change will constitute Customer's consent to such changes. Google will post any modification to this Agreement to https://cloud.google.com/terms/.
+
+(c) To the Cloud Data Processing Addendum. Google may only change the Cloud Data Processing Addendum where such change is required to comply with applicable law, is expressly permitted by the Cloud Data Processing Addendum, or:
+
+(i) is commercially reasonable;
+
+(ii) does not result in a material reduction of the security of the Services;
+
+(iii) does not expand the scope of or remove any restrictions on Google's processing of "Customer Personal Data," as described in the "Scope of Processing" Section of the Cloud Data Processing Addendum; and
+
+(iv) does not otherwise have a material adverse impact on Customer's rights under the Cloud Data Processing Addendum.
+
+If Google makes a material change to the Cloud Data Processing Addendum in accordance with this Section 1.4(c) (Modifications: To the Cloud Data Processing Addendum), Google will post the change at the webpage containing the Cloud Data Processing Addendum.
+
+(d) Discontinuation of Services. Google will notify Customer at least 12 months before discontinuing any Service (or associated material functionality) unless Google replaces such discontinued Service or functionality with a materially similar Service or functionality. Further, Google will notify Customer at least 12 months before significantly modifying a Customer-facing Google API in a backwards-incompatible manner. Nothing in this Section 1.4(d) (Discontinuation of Services) limits Google's ability to make changes required to comply with applicable law, address a material security risk, or avoid a substantial economic or material technical burden. This Section 1.4(d) (Discontinuation of Services) does not apply to pre-general availability Services, offerings, or functionality.
+
+1.5 Software. Google may make Software available to Customer, including third-party software. Customer's use of any Software is subject to the applicable provisions in the Service Specific Terms.
+
+2. Payment Terms.
+
+2.1 Online Billing. At the end of the applicable Fee Accrual Period or as otherwise stated by Google in the Admin Console, Google will issue an electronic bill to Customer for all charges based on Customer's use of the Services during the applicable Fee Accrual Period (including, if applicable, the relevant Fees for TSS). If Google determines that Customer is at risk of non-payment or that Customer’s Account is potentially fraudulent, then Google may invoice Customer more frequently. Customer will pay all Fees in the currency stated in the invoice. If Customer elects to pay by credit card, debit card, or other non-invoiced form of payment, Google will charge (and Customer will pay) all Fees immediately at the end of the Fee Accrual Period. If Customer elects to pay by invoice (and Google agrees), all Fees are due as stated in the invoice. Customer's obligation to pay all Fees is non-cancellable. Google's measurement of Customer's use of the Services is final. Google has no obligation to provide multiple bills. Payments made via wire transfer must include the bank information provided by Google.
+
+2.2 Taxes.
+
+(a) Customer is responsible for any Taxes, and will pay Google for the Services without any reduction for Taxes. If Google is obligated to collect or pay any Taxes, the Taxes will be invoiced to Customer and Customer will pay such Taxes to Google, unless Customer provides Google with a timely and valid tax exemption certificate in respect of those Taxes.
+
+(b) Customer will provide Google with any applicable tax identification information that Google may require under applicable law to ensure its compliance with applicable tax regulations and authorities in applicable jurisdictions. Customer will be liable to pay (or reimburse Google for) any taxes, interest, penalties, or fines arising out of any mis-declaration by Customer.
+
+2.3 Payment Disputes & Refunds. Any payment disputes must be submitted before the payment due date. If the parties determine that certain billing inaccuracies are attributable to Google, Google will not issue a corrected invoice, but will instead issue a credit memo specifying the incorrect amount in the affected invoice. If a disputed invoice has not yet been paid, Google will apply the credit memo amount to a disputed invoice and Customer will be responsible for paying the resulting net balance due on that invoice. Refunds (if any) are at Google's discretion and will only be in the form of credit for the Services. Nothing in this Agreement obligates Google to extend credit to any party.
+
+2.4 Delinquent Payments; Suspension. Late payments may bear interest at the rate of 1.5% per month (or the highest rate permitted by law, if less) from the payment due date until paid in full. Customer will be responsible for all reasonable expenses (including attorneys' fees) incurred by Google in collecting such delinquent amounts. Further, if Customer's payment for the Services is overdue, Google may Suspend the Services.
+
+2.5 No Purchase Order Number Required. Customer is obligated to pay all applicable Fees without any requirement for Google to provide a purchase order number on Google's invoice (or otherwise).
+
+3. Customer Obligations.
+
+3.1 Compliance. Customer will (a) ensure that Customer and its End Users' use of the Services complies with the Agreement, (b) use commercially reasonable efforts to prevent and terminate any unauthorized use of, or access to, the Services, and (c) promptly notify Google of any unauthorized use of, or access to, the Services, Account, or Customer's password of which Customer becomes aware. Google reserves the right to investigate any potential violation of the AUP by Customer, which may include reviewing Customer Applications, Customer Data, or Projects.
+
+3.2 Privacy. Customer is responsible for any consents and notices required to permit (a) Customer's use and receipt of the Services and (b) Google's accessing, storing, and processing of data provided by Customer (including Customer Data, if applicable) under the Agreement.
+
+3.3 Restrictions. Customer will not, and will not allow End Users to, (a) copy, modify, or create a derivative work of the Services; (b) reverse engineer, decompile, translate, disassemble, or otherwise attempt to extract any or all of the source code of, the Services (except to the extent such restriction is expressly prohibited by applicable law); (c) sell, resell, sublicense, transfer, or distribute any or all of the Services; or (d) access or use the Services (i) for High Risk Activities; (ii) in violation of the AUP; (iii) in a manner intended to avoid incurring Fees (including creating multiple Customer Applications, Accounts, or Projects to simulate or act as a single Customer Application, Account, or Project (respectively)) or to circumvent Service-specific usage limits or quotas; (iv) to engage in cryptocurrency mining without Google's prior written approval; (v) to operate or enable any telecommunications service or in connection with any Customer Application that allows End Users to place calls or to receive calls from any public switched telephone network, unless otherwise described in the Service Specific Terms; (vi) for materials or activities that are subject to the International Traffic in Arms Regulations (ITAR) maintained by the United States Department of State; (vii) in a manner that breaches, or causes the breach of, Export Control Laws; or (viii) to transmit, store, or process health information subject to United States HIPAA regulations except as permitted by an executed HIPAA BAA.
+
+3.4 Documentation. Google may provide Documentation for Customer's use of the Services.
+
+3.5 Copyright. Google responds to notices of alleged copyright infringement and terminates the Accounts of repeat infringers i
