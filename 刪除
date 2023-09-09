@@ -1,0 +1,111 @@
+跳至內容
+
+代碼
+問題
+71
+更多的
+麵包屑文檔/內容/搜索-github/在 github 上開始搜索
+/關於在 github 上搜索.md
+最新提交
+拉赫馬里
+拉赫馬里
+3天前
+歷史
+98 行（68 個位置）· 9.67 KB
+文件元數據和控件
+
+預覽
+
+代碼
+
+責備
+標題	介紹	重定向自	版本	主題
+關於在 GitHub 上搜索
+我們的集成搜索涵蓋了 {% data Variables.product.product_name %} 上的許多存儲庫、用戶和代碼行。
+/文章/使用命令欄
+/文章/github-搜索-基礎
+/文章/搜索基礎知識
+/文章/搜索-github
+/文章/高級搜索
+/articles/about-searching-on-github
+/github/在 github 上搜索信息/about-searching-on-github
+/github/在 github 上搜索信息/在 github 上搜索入門/about-searching-on-github
+菲普	蓋斯	蓋埃	蓋克
+*
+*
+*
+*
+GitHub 搜索
+關於在 {% data Variables.product.prodname_dotcom %} 上搜索
+{% data reusables.search.you-can-search-globally %}
+
+要在所有 {% data Variables.product.product_name %} 中進行全局搜索，請在任意頁面頂部的搜索字段中輸入您要查找的內容，然後選擇“搜索所有 {% data Variables.product.prodname_dotcom %” } ”在搜索下拉菜單中。
+
+要在特定存儲庫或組織內搜索，請導航到存儲庫或組織頁面，在頁面頂部的搜索字段中輸入您要查找的內容，然後按Enter。
+
+{% ifversion code-search-code-view %}您還可以使用搜索欄中的建議和補全來快速找到您需要的內容。
+
+如果單擊 GitHub.com 頂部導航中的搜索欄，您將看到按類別組織的建議列表，包括最近的搜索以及您有權訪問的建議存儲庫、團隊和項目。
+
+單擊任何具體建議將直接轉至該建議的頁面（例如，存儲庫或項目頁面）。如果您單擊最近的搜索，根據搜索類型，搜索詞將出現在搜索欄中，或者您將進入該搜索詞的搜索結果頁面。
+
+開始輸入後，您將看到與您的查詢匹配的補全和建議列表。您可以單擊建議跳轉到特定位置。當您繼續鍵入時，您將看到更具體的建議，例如可以直接跳轉到的代碼文件。
+
+輸入搜索查詢後，您可以按Enter轉至完整搜索結果視圖，您可以在其中查看每個匹配項以及用於應用過濾器的可視化界面。有關詳細信息，請參閱“使用可視化界面進行搜索”。{％ 萬一 ％}
+
+{％ 筆記 ％}
+
+筆記：
+
+{% ifversion fpt 或 ghes 或 ghec %}
+
+{% 數據 reusables.search.required_login %}{% endif %}
+無法在 {% data Variables.product.product_name %} 上搜索 {% data Variables.product.prodname_pages %} 網站。但是，如果源內容存在於存儲庫的默認分支中，您可以使用代碼搜索來搜索源內容。有關詳細信息，請參閱“[AUTOTITLE]{% ifversion code-search-code-view %}(/search-github/github-code-search/understanding-github-code-search-syntax){% else %}( / search-github/searching-on-github/searching-code){% endif %}。" 有關 {% data Variables.product.prodname_pages %} 的更多信息，請參閱“ AUTOTITLE ”
+目前我們的搜索不支持精確匹配。{% ifversion ghes or ghae %}
+每當您在代碼文件中搜索時，只會返回每個文件中的前兩個結果。{% endif %}
+{%尾註%}
+
+對 {% data Variables.product.product_name %} 運行搜索後，您可以對結果進行排序，或者通過單擊側邊欄中的一種語言來進一步細化結果。有關詳細信息，請參閱“自動標題”。
+
+每次將更改推送到 {% data Variables.product.product_name %} 時，{% data variables.product.product_name %} 搜索都會使用 ElasticSearch 集群為項目編制索引。問題和拉取請求在創建或修改時會被索引。
+
+{% data Variables.product.prodname_dotcom %} 上的搜索類型
+您可以在 {% data Variables.location.product_location %} 上可以訪問的所有存儲庫中搜索以下信息。
+
+存儲庫
+主題
+問題和拉取請求{% ifversion fpt 或 ghec %}
+討論{% endif %}
+{% ifversion code-search-code-view %}代碼{% else %}代碼{% endif %}
+提交
+用戶
+套餐
+維基百科
+使用可視化界面進行搜索
+除了搜索欄之外，您還可以使用 {% data Variables.search.search_page_url %} 或 {% data Variables.search.advanced_url %} 搜索 {% data Variables.product.product_name %}。{% ifversion command-palette %}或者，您可以使用{% data variables.product.prodname_command_palette %} 中的交互式搜索來搜索UI 中的當前位置、特定用戶、存儲庫或組織，以及全局範圍內的所有位置{% data Variables.product.product_name %}，無需離開鍵盤。有關詳細信息，請參閱“自動標題”。{% endif %}
+
+{% data Variables.search.advanced_url %} 提供了用於構建搜索查詢的可視化界面。您可以根據各種因素過濾搜索，例如存儲庫的星星數量或分叉數量。當您填寫高級搜索字段時，您的查詢將自動在頂部搜索欄中構建。
+
+高級搜索頁面的屏幕截圖。 頂部搜索欄填充了查詢“kittens user:octocat”，並且在下面的“高級選項”部分下，“來自這些所有者”文本框包含術語“octocat”，並以深橙色概述。
+
+從您的私有企業環境中搜索 {% data Variables.product.prodname_dotcom_the_website %} 上的存儲庫
+{% ifversion fpt 或 ghec %}
+
+如果您同時使用 {% datavariables.product.prodname_dotcom_the_website %} 和 {% datavariables.product.prodname_ghe_server %} 或 {% datavariables.product.prodname_ghe_driven %}，並且企業所有者已啟用 {% datavariables.enterprise。 prodname_unified_search %}，您可以同時從{% data Variables.product.prodname_ghe_server %} 或{% data Variables.product.prodname_ghe_driven %} 跨兩個環境進行搜索。有關更多信息，請參閱{% data Variables.product.prodname_ghe_server %} 文檔或{% data Variables.product.prodname_ghe_driven %} 文檔。
+
+{％ 別的 ％}
+
+如果您同時使用{% data Variables.product.prodname_dotcom_the_website %} 和{% data Variables.product.product_name %}，並且企業所有者已啟用{% data Variables.enterprise.prodname_unified_search %}，則您可以在以下位置跨這兩個環境進行搜索：同時來自{% data Variables.product.product_name %}。有關企業所有者如何啟用 {% data Variables.enterprise.prodname_unified_search %} 的更多信息，請參閱“ AUTOTITLE ”。
+
+您在{% data Variables.product.product_name %} 上的企業所有者可以為{% data Variables.product.prodname_dotcom_the_website %} 上的所有公共存儲庫以及組織擁有的私有存儲庫單獨啟用{% data Variables.enterprise .prodname_unified_search %}或 {% data Variables.product.prodname_dotcom_the_website %} 上的企業，通過 {% data Variables.product.prodname_github_connect %} 連接到 {% data Variables.product.product_name %}。
+
+在將 {% data Variables.enterprise.prodname_unified_search %} 用於私有存儲庫之前，您必須在 {% data Variables.product.prodname_dotcom_the_website %} 和 {% data Variables.product.product_name %} 上連接您的個人帳戶。有關詳細信息，請參閱“自動標題”。
+
+When you search from {% data variables.product.product_name %}, only private repositories that you have access to and that are owned by the connected organization or enterprise account will be included in search results. Neither you nor anyone else will be able to search private repositories owned by your personal account on {% data variables.product.prodname_dotcom_the_website %} from {% data variables.product.product_name %}.
+
+To limit your search to one environment, you can use a filter option on the {% data variables.search.advanced_url %} or you can use the environment: search prefix. To only search for content on {% data variables.product.product_name %}, use the search syntax environment:local. To only search for content on {% data variables.product.prodname_dotcom_the_website %}, use environment:github. {% endif %}
+
+Further reading
+“自動標題”
+“自動標題”
+2023/9/10更新刪除
